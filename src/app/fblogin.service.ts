@@ -8,7 +8,7 @@ export class FBLoginService {
   init() {
     (window as any).fbAsyncInit = function () {
       FB.init({
-        appId: 'FACEBOOK_APP_ID',
+        appId: '367877093727627',
         cookie: true,
         xfbml: true,
         version: 'v9.0',
